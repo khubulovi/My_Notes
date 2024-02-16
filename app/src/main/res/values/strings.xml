@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_name">Title Name</string>
+    <string name="discription">Discription</string>
+    <string name="first_note_title">Maxo</string>
+    <string name="first_note_content">I go to code</string>
+    <string name="second_note_title">Nika</string>
+    <string name="second_note_content">Nika wants to go chilim</string>
+    <string name="third_note_title">Alik</string>
+    <string name="third_note_content">is Always stupid</string>
+    <string name="note_title">Node title</string>
+    <string name="note_content">Note content</string>
+    <string name="gmail_com">Mxubulovi1998@gmail.com</string>
+    <string name="android_head">Android Head</string>
+    <string name="about">About</string>
+    <string name="settings">Settings</string>
+    <string name="add_Note">Add Note</string>
+    <string name="send">Send</string>
+    <string name="sort">Sort</string>
+    <string name="drawer_open">Open navigation</string>
+    <string name="drawer_close">Close navigation</string>
+    <string name="item">Item</string>
+    <string name="date_of_item">Date of Item</string>
+    <string name="fout_note_title">Vazgen</string>
+    <string name="four_note_content">Every day shuffeling</string>
+    <string name="five_note_title">Luka</string>
+    <string name="five_note_content">Lets go playing slots</string>
+    <string name="six_note_title">Bobe</string>
+    <string name="six_note_content">Smoke everyday</string>
+    <string name="seven_note_title">Valera</string>
+    <string name="seven_note_content">Lets go work my friend</string>
+    <string name="eight_note_title">Sevdin</string>
+    <string name="eight_note_content">Always needs a doctor</string>
+    <string name="nine_note_title">Alik</string>
+    <string name="nine_note_content">I be populaar</string>
+    <string name="ten_note_title">Maxo</string>
+    <string name="ten_note_content">I go to code</string>
+    <string name="delete">Delete</string>
+    <string name="type_email">Type @email</string>
+    <string name="btnContinue">Continue</string>
+    <string name="btnSkip">Skip</string>
+</resources>
