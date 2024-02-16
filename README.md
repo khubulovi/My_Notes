@@ -6,5 +6,5 @@ ___
 > 1 месяц, 8 уроков. 12 часов обучающего контента, 24 часа практики.
 
 ### Основные темы курса:
-* [Все уроки в одном: ]() Android Studio on Java.
+* [Все уроки в одном: ](https://github.com/khubulovi/My_Notes/) Android Studio on Java.
   
