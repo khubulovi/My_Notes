@@ -112,6 +112,32 @@ public class ListOfNoteFragment extends Fragment {
     }
 
     @Override
+    public boolean onContextItemSelected(@NonNull MenuItem item) {
+        int position= adapter.getMenuPosition();
+        if(item.getItemId() == R.id.menu_delete){
+            DeleteDialogFragment deleteDialogFragment =new DeleteDialogFragment();
+            deleteDialogFragment.setCancelable(false);
+            deleteDialogFragment.setOnDeleteDialogListener(new OnDeleteDialogListener() {
+                @Override
+                public void onDelete() {
+                    data.deleteNote(position);
+                    adapter.notifyItemChanged(position);
+                    deleteDialogFragment.dismiss();
+                }
+
+                @Override
+                public void cancelDelete() {
+                    deleteDialogFragment.dismiss();
+                }
+
+            });
+            deleteDialogFragment.show(requireActivity().getSupportFragmentManager(),
+                    "DeleteFragmentTag");
+            return true;
+        }return super.onContextItemSelected(item);
+    }
+
+    @Override
     public void onCreateOptionsMenu(@NonNull Menu menu, @NonNull MenuInflater inflater) {
         MenuItem search = menu.findItem(R.id.menu_search);
         MenuItem addNote = menu.findItem(R.id.menu_add_note);

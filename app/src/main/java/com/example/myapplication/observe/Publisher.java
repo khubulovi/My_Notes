@@ -12,17 +12,20 @@ public class Publisher {
         this.observerList = new ArrayList<>();
     }
 
-    public void subscribe(Observer observer) {
+    public synchronized void subscribe(Observer observer) {
         observerList.add(observer);
     }
 
-    public void unSubscribe(Observer observer) {
+    public synchronized void unSubscribe(Observer observer) {
         observerList.remove(observer);
     }
 
-    public void notifySingle(Note note) {
+    public synchronized void notifySingle(Note note) {
+        List<Observer> observersToUnsoscrube = new ArrayList<>();
         for (Observer observer : observerList) {
             observer.update(note);
+        }
+        for(Observer observer :observersToUnsoscrube ){
             unSubscribe(observer);
         }
     }

@@ -41,4 +41,7 @@
     <string name="type_email">Type @email</string>
     <string name="btnContinue">Continue</string>
     <string name="btnSkip">Skip</string>
+    <string name="delete2">Delete?</string>
+    <string name="confirm_delete">Confirm Delete</string>
+    <string name="cancel_delete">Cancel delete</string>
 </resources>
